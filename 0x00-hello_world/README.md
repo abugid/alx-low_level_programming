@@ -6,3 +6,4 @@
 5 use printf to print string
 6 prints size of data types
 7 generate assembly code
+8 print to the standard error
