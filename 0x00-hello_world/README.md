@@ -2,3 +2,4 @@
 1 compile the c program
 2 assemble the c program
 3 create an executable
+4 c program to print using puts function
