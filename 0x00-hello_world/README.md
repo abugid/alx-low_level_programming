@@ -5,3 +5,4 @@
 4 c program to print using puts function
 5 use printf to print string
 6 prints size of data types
+7 generate assembly code
