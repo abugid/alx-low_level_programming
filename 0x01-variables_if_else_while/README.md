@@ -7,3 +7,4 @@
 6 print single digits using putchar
 7 print the alphabet in reverse
 8 print the hexadecimal digit
+9 print combinations of digits
