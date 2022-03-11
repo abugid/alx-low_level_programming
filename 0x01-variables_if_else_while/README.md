@@ -10,3 +10,4 @@
 9 print combinations of digits
 10 print possible combinations of two digits
 11 print possible combinations of three digits
+12 print possible combinations of two two-digits
