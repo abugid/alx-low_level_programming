@@ -4,3 +4,4 @@
 3 print the alphabet in upper and lowercase
 4 print the alphabet with some exceptions
 5 print all single digits
+6 print single digits using putchar
