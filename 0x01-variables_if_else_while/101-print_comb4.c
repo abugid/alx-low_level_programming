@@ -22,14 +22,14 @@ int main(void)
 				{
 					if (k > j)
 					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
-						if (i < 56)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i < 55)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
