@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	int i;
-	char str[27] = "abcdefghijklmnopqrstuvwxyz";
+	char ch = 'a';
 
-	for (i = 0; i < 27; i++)
-		putchar(str[i]);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 
 	putchar('\n');
 
