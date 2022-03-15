@@ -13,6 +13,11 @@ int main(void)
 	return (0);
 }
 
+/**
+ *  * printStr - prints strings
+ *   @s: - string
+ *    * Return: Always 0 (Success)
+ */
 void printStr(char *s)
 {
 	int i = 0;
