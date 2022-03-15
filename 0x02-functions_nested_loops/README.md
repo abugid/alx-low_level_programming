@@ -3,3 +3,4 @@
 2 print the alphabet ten times
 3 checks if a character is lower case
 4 checks if a character is a letter
+5 checks a number's sign
