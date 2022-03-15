@@ -5,3 +5,4 @@
 4 checks if a character is a letter
 5 checks a number's sign
 6 calculates absolute value of a number
+7 prints the last digit of a number
