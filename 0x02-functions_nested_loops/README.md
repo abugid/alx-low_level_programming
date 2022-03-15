@@ -4,3 +4,4 @@
 3 checks if a character is lower case
 4 checks if a character is a letter
 5 checks a number's sign
+6 calculates absolute value of a number
