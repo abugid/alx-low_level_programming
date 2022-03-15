@@ -6,3 +6,4 @@
 5 checks a number's sign
 6 calculates absolute value of a number
 7 prints the last digit of a number
+8 prints upto 24 minutes
