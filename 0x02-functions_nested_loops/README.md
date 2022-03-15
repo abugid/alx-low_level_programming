@@ -10,3 +10,8 @@
 9 prints time table
 10 add two numbers
 11 prints sum of numbers upto 98
+12 prints time table
+13 prints the sum of all the multiples of 3 or 5 below 1024
+14 prints the first 50 Fibonacci numbers
+15 prints the sum of the even-valued terms
+16 prints the first 98 Fibonacci numbers
