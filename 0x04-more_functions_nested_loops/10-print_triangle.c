@@ -7,6 +7,8 @@
 
 void print_triangle(int size)
 {
+if (size > 0)
+{
 int i, j, k, l, m;
 
 j = size - 1;
@@ -25,5 +27,10 @@ _putchar('#');
 _putchar('\n');
 j--;
 k++;
+}
+}
+else
+{
+_putchar('\n');
 }
 }
