@@ -8,7 +8,7 @@
 
 int main(void)
 {
-long int n = 612852475143, tmp, i;
+unsigned long int n = 612852475143, tmp, i;
 
 tmp = 0;
 
@@ -34,7 +34,7 @@ if (n > 2)
 if (n > tmp)
 tmp = n;
 }
-printf("%ld\n", tmp);
+printf("%lu\n", tmp);
 
 return (0);
 }
