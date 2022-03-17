@@ -1,40 +1,19 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
- * main - entrypoint
- * Return: Always 0
+ * main - prints the largest prime factor
+ *
+ * Return: always 0
  */
-
 int main(void)
 {
-unsigned long int n = 612852475143, tmp, i;
+	unsigned long int i, n = 612852475143;
 
-tmp = 0;
-
-while (n % 2 == 0)
-{
-if (tmp < 2)
-tmp = 2;
-n = n / 2;
-}
-
-for (i = 3; i <= sqrt(n); i = i + 2)
-{
-
-while (n % i == 0)
-{
-if (i > tmp)
-tmp = i;
-n = n / i;
-}
-}
-if (n > 2)
-{
-if (n > tmp)
-tmp = n;
-}
-printf("%lu\n", tmp);
-
-return (0);
+	for (i = 3; i < 782849; i = i + 2)
+	{
+		while ((n % i == 0) && (n != i))
+			n = n / i;
+	}
+	printf("%lu\n", n);
+	return (0);
 }
