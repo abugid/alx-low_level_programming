@@ -10,3 +10,4 @@
 9 the fizzBuzz challenge
 10 prints a triangle
 11 prints the largest prime factor
+12 print integers
