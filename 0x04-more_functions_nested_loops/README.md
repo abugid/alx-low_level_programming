@@ -7,3 +7,4 @@
 6 print a line
 7 prints a diagonal line
 8 prints a square
+the fizzBuzz challenge
