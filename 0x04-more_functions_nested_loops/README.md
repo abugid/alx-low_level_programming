@@ -6,3 +6,4 @@
 5 print numbers 0-14 ten times
 6 print a line
 7 prints a diagonal line
+8 prints a square
