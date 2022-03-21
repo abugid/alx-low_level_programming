@@ -6,3 +6,4 @@
 5 reverses a string
 6 prints every other string
 7 prints half of a string
+8 prints an array of integers
