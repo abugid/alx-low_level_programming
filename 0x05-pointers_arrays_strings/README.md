@@ -2,3 +2,4 @@
 1 swaps two integers
 2 calculate the length of a string
 3 write string to stdout
+4 print string in reverse
