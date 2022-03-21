@@ -1,0 +1,1 @@
+0 resets value using pointer
