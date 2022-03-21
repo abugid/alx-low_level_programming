@@ -8,3 +8,4 @@
 7 prints half of a string
 8 prints an array of integers
 9 copies string
+10 convert string to integer
