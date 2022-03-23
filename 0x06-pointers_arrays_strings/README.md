@@ -6,3 +6,8 @@
 5 change to uppercase
 6 capitalize all words
 7 encode string to 1337
+8 encodes a string using rot13
+9 print a number
+10 added line of code
+11 add two numbers
+12 print a buffer
