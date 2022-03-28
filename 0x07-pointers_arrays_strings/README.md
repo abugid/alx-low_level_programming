@@ -7,3 +7,4 @@
 6 prints a chessboard
 7 prints the sum of a diagonal matrix
 8 sets the value of a pointer to a char
+password for crackme2
