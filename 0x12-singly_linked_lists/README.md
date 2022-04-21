@@ -1,0 +1,1 @@
+0 prints elements of a list
