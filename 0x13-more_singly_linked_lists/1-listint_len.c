@@ -6,9 +6,11 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	int count;
+	const listint_t *tmp;
+	size_t count;
 
-	for (count = 0; h->next != NULL; count++)
-		h = h->next;
-	return (++count);
+	for (tmp = h, count = 0; tmp != NULL; count++, tmp = tmp->next)
+		;
+
+	return (count);
 }
