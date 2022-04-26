@@ -6,3 +6,4 @@
 5 frees a list and sets head to NULL
 6 pops the head of an element
 7 returns element based on index
+8 sums up elements
