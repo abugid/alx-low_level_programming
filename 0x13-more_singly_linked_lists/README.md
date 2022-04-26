@@ -7,3 +7,4 @@
 6 pops the head of an element
 7 returns element based on index
 8 sums up elements
+9 adds new node at index
