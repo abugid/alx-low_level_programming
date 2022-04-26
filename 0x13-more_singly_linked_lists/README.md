@@ -8,3 +8,4 @@
 7 returns element based on index
 8 sums up elements
 9 adds new node at index
+10 deletes node
