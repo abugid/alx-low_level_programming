@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * print_binary - prints binary form of decimal
- * @n: decimal to be converted
+ * print_binary - print binary representation of a number
+ * @n: decimal number to print as binary
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int pwr;
+	unsigned long int temp;
+	int shifts;
 
 	if (n == 0)
 	{
@@ -14,52 +15,14 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	pwr = get_pwr1(n, 1);
+	for (temp = n, shifts = 0; (temp >>= 1) > 0; shifts++)
+		;
 
-	while (pwr > 1)
+	for (; shifts >= 0; shifts--)
 	{
-		if ((n & pwr) == 0)
-			_putchar('0');
-		else
+		if ((n >> shifts) & 1)
 			_putchar('1');
-		pwr = get_pwr2(pwr, 1);
+		else
+			_putchar('0');
 	}
-	if ((n & 1) == 0)
-		_putchar('0');
-	else
-		_putchar('1');
-}
-
-/**
- * get_pwr1 - gets the min power of 2
- * @num: num to be compared
- * @i: initial power
- * Return: min power
- */
-unsigned long int get_pwr1(unsigned long int num, unsigned long int i)
-{
-	int k;
-
-	if (i * 2 > num)
-		return (i);
-
-	k = get_pwr1(num, 2 * i);
-	return (k);
-}
-
-/**
- * get_pwr2 - gets the min power of 2
- * @num: num to be compared
- * @i: initial power
- * Return: min power
- */
-unsigned long int get_pwr2(unsigned long int num, unsigned long int i)
-{
-	int k;
-
-	if (i * 2 >= num)
-		return (i);
-
-	k = get_pwr2(num, 2 * i);
-	return (k);
 }
